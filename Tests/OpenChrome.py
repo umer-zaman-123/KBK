@@ -14,7 +14,7 @@ class OpenChrome(unittest.TestCase):
     def test(self):
         driver = self.driver
         driver.get(self.base_url)
-        time.sleep(20)
+        #time.sleep(20)
 
     def tearDown(self):
         self.driver.quit()
