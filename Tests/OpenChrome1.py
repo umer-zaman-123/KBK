@@ -3,7 +3,7 @@ from selenium import webdriver
 import time
 
 
-class OpenChrome(unittest.TestCase):
+class OpenChrome1(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path = r'C:/Users/munnam/PycharmProjects/KBK/chromedriver')
